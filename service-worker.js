@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "u0ash.github.io/Todo/precache-manifest.09dc80490ea27933cd76692ce8ff6da6.js"
+  "/Todo/precache-manifest.6c5203af442d64496c886293f03e759f.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("u0ash.github.io/Todo/index.html", {
+workbox.routing.registerNavigationRoute("/Todo/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
